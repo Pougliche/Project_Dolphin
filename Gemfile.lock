@@ -160,7 +160,8 @@ GEM
       activerecord (>= 5.2)
       activesupport (>= 5.2)
     public_suffix (4.0.3)
-    puma (3.12.2)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     rack (2.1.1)
     rack-pjax (1.1.0)
       nokogiri (~> 1.5)
@@ -308,7 +309,7 @@ DEPENDENCIES
   nokogiri
   pg (>= 0.18, < 2.0)
   pg_search
-  puma (~> 3.11)
+  puma (~> 4.3)
   rails (~> 5.2.3)
   rails_admin
   route_translator
